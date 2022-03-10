@@ -1,18 +1,22 @@
+// Import the functions you need from the SDKs you need
+import { getApps, initializeApp } from 'firebase/app';
 import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/firestore';
+import { getFirestore } from 'firebase/firestore';
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-const clientCredentials = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: 'AIzaSyDmwvGY1Mc2waR-FaIq0azslg9eUcaGxu0',
+  authDomain: 'next-notion-l.firebaseapp.com',
+  projectId: 'next-notion-l',
+  storageBucket: 'next-notion-l.appspot.com',
+  messagingSenderId: '391195623847',
+  appId: '1:391195623847:web:166d3e20ebcb0b1749f682',
 };
-
-if (!firebase.apps.length) {
-  firebase.initializeApp(clientCredentials);
+let app;
+// Initialize Firebase
+if (!getApps().length) {
+  app = initializeApp(firebaseConfig);
 }
-
-export default firebase;
+export const db = getFirestore(app);

@@ -1,8 +1,11 @@
+
 import Head from 'next/head';
 import Image from 'next/image';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import Cerveau from '../src/assets/images/idee-de-genie.png';
+
+
 
 export default function Home() {
   return (
@@ -18,21 +21,21 @@ export default function Home() {
           "On à (pas) toujours une idée en tête..."
         </h1>
         <div className=" flex flex-col lg:flex-row justify-around  sm:w-6/12 lg:w-9/12 m-auto h-auto lg:pl-30 lg:pb-10 lg:pt-24">
-          <div className='flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md'>
+          <div className="flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md">
             <p className="m-auto w-60 pl-5 pr-5 text-center">
               Tu as plein d' idées en tête que tu voudrais partager ou tu es en
               panne d'inspiration et tu cherches une bonne idée ?
             </p>
             <Image src={Cerveau} alt="cerveau" width={40} height={40} />
           </div>
-          <div className='flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md'>
+          <div className="flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md">
             <p className="m-auto w-60 pl-5 pt-4 pr-5 text-center">
               Sur Pose Ton Idée, tu retrouveras des idées classées par thème et
               postées par nos utilisateurs.
             </p>
             <Image src={Cerveau} alt="cerveau" width={40} height={40} />
           </div>
-          <div className='flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md'>
+          <div className="flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md">
             <p className="m-auto w-60 pr-5 pt-4 pl-5 text-center">
               Que tu sois un inventeur en panne d'inspiration ou un grand
               imaginatif, ce site est fait pour toi !
