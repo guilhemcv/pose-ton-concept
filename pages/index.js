@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
+import Cerveau from '../src/assets/images/idee-de-genie.png';
 
 export default function Home() {
   return (
@@ -12,18 +13,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className="h-screen bg-[url('../src/assets/images/dream-big.jpg')] bg-center bg-no-repeat bg-cover">
-        <div className="text-center text-xl pt-48 font-bold align-baseline">
-          <div className='bg-white/50 w-9/12 h-auto pb-10 m-auto shadow-sm rounded-md'>
-            <h1 className='pt-5'>Hello ! 👋</h1>
-            <p className="w-9/12 m-auto pt-20 text-justify">
-              Tu as plein d' idées en tête que tu voudrais partager ? <br />
-              En panne d'inspiration, tu cherches une bonne idée ? <br />
+      <main className="h-auto bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
+        <h1 className="text-center pt-10 text-l pb-10 md:text-right md:p-32 sm:p-20 font-bold italic sm:text-2xl">
+          "On à (pas) toujours une idée en tête..."
+        </h1>
+        <div className=" flex flex-col lg:flex-row justify-around  sm:w-6/12 lg:w-9/12 m-auto h-auto lg:pl-30 lg:pb-10 lg:pt-24">
+          <div className='flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md'>
+            <p className="m-auto w-60 pl-5 pr-5 text-center">
+              Tu as plein d' idées en tête que tu voudrais partager ou tu es en
+              panne d'inspiration et tu cherches une bonne idée ?
+            </p>
+            <Image src={Cerveau} alt="cerveau" width={40} height={40} />
+          </div>
+          <div className='flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md'>
+            <p className="m-auto w-60 pl-5 pt-4 pr-5 text-center">
               Sur Pose Ton Idée, tu retrouveras des idées classées par thème et
-              postés par nos utilisateurs <br />
+              postées par nos utilisateurs.
+            </p>
+            <Image src={Cerveau} alt="cerveau" width={40} height={40} />
+          </div>
+          <div className='flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md'>
+            <p className="m-auto w-60 pr-5 pt-4 pl-5 text-center">
               Que tu sois un inventeur en panne d'inspiration ou un grand
               imaginatif, ce site est fait pour toi !
             </p>
+            <Image src={Cerveau} alt="cerveau" width={40} height={40} />
           </div>
         </div>
       </main>
