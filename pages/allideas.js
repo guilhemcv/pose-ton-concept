@@ -92,7 +92,7 @@ export default function technologie({ ideas }) {
                       height={10}
                     />
                     <h6 className="ml-1.5 text-xs text-slate-500 active:text-red-800 font-sans">
-                      J'aime l'idée !
+                      J&apos;aime l&apos;idée !
                     </h6>
                   </button>
                   <div className='flex'>
@@ -148,7 +148,7 @@ export default function technologie({ ideas }) {
                       height={10}
                     />
                     <h6 className="ml-1.5 text-xs text-slate-500 active:text-red-800 font-sans">
-                      J'aime l'idée !
+                      J&apos;aime l&apos;idée !
                     </h6>
                   </button>
                   <div className='flex'>

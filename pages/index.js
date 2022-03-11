@@ -16,15 +16,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className="h-screen bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
+      <main className="lg:h-screen bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
         <h1 className="text-center pt-10 text-l pb-10 md:text-right md:p-20 sm:p-20 font-bold italic sm:text-2xl">
-          "On à (pas) toujours une idée en tête..."
+        &quot;On à (pas) toujours une idée en tête...&quot;
         </h1>
         <div className=" flex flex-col lg:flex-row justify-around  sm:w-6/12 lg:w-9/12 m-auto h-auto lg:pl-30 lg:pb-10 lg:pt-24">
           <div className="flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md">
             <p className="m-auto w-60 pl-5 pr-5 text-center">
-              Tu as plein d' idées en tête que tu voudrais partager ou tu es en
-              panne d'inspiration et tu cherches une bonne idée ?
+              Tu as plein d&apos;idées en tête que tu voudrais partager ou tu es en
+              panne d&apos;inspiration et tu cherches une bonne idée ?
             </p>
             <Image src={Cerveau} alt="cerveau" width={40} height={40} />
           </div>
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md">
             <p className="m-auto w-60 pr-5 pt-4 pl-5 text-center">
-              Que tu sois un inventeur en panne d'inspiration ou un grand
+              Que tu sois un inventeur en panne d&apos;inspiration ou un grand
               imaginatif, ce site est fait pour toi !
             </p>
             <Image src={Cerveau} alt="cerveau" width={40} height={40} />
