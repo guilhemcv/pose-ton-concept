@@ -4,7 +4,7 @@ import Coffee from '../src/assets/images/Buy_Me_a_Coffee_Logo.png';
 
 function Footer() {
   return (
-    <div className="text-center sm:flex items-center justify-between p-5 bg-white">
+    <div className="text-center mb-auto sm:flex items-center justify-between p-5 bg-white">
       <div>
         <Link href="https://www.guilhem-seyvet.fr">
           <a target="_blank">

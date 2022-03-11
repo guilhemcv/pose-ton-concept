@@ -16,8 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className="h-auto bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
-        <h1 className="text-center pt-10 text-l pb-10 md:text-right md:p-32 sm:p-20 font-bold italic sm:text-2xl">
+      <main className="h-screen bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
+        <h1 className="text-center pt-10 text-l pb-10 md:text-right md:p-20 sm:p-20 font-bold italic sm:text-2xl">
           "On à (pas) toujours une idée en tête..."
         </h1>
         <div className=" flex flex-col lg:flex-row justify-around  sm:w-6/12 lg:w-9/12 m-auto h-auto lg:pl-30 lg:pb-10 lg:pt-24">
