@@ -47,6 +47,7 @@ export default function technologie({ ideas }) {
             onChange={(e) => setValue(e.target.value)}
           >
             <option value="">Choisir une catégorie :</option>
+            <option value="">Toutes les idées</option>
             <option value="technologie">Technologie</option>
             <option value="applications">Applications</option>
             <option value="invention">Invention</option>
