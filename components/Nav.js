@@ -21,7 +21,7 @@ function Nav() {
           </h3>
           
           <h3 className="align-middle h-12 italic  md:w-60">
-            <Link href="https://docs.google.com/forms/d/1WtvKW-i0Tpw1wgf-YcRu1MHGeFQYKUkB1XITYIHyOC4/prefill">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc-n7nqeSoVjZrYKoxuBmaO9oqxH8ucVfDOqgsruqWsSQDxeQ/viewform?usp=sf_link">
               <a
                 className="align-middle bg-button hover:bg-black hover:text-button shadow-lg p-3 rounded w-40"
                 target="_blank"
