@@ -1,4 +1,5 @@
 import { Client } from '@notionhq/client';
+import Head from 'next/head';
 import axios from 'axios';
 import react from 'react';
 import Footer from '../components/Footer';
@@ -38,6 +39,12 @@ export default function technologie({ ideas }) {
 
   return (
     <div className="bg-slate-200">
+      <Head>
+        <title>Pose ton idée !</title>
+        <meta name="description" content="Toi aussi viens poser ton idée" />
+        <link rel="icon" href="/favicon.ico" />
+        <script async data-api="/sb-api" src="/sb.js"></script>
+      </Head>
       <Nav />
       <main className="h-full">
         <div className='flex justify-center'>
