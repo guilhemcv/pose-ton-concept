@@ -33,7 +33,6 @@ export default function technologie({ ideas }) {
         console.log(error);
       })
       .then((response) => {
-        console.log(response);
       });
   };
 
