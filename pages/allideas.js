@@ -40,8 +40,8 @@ export default function technologie({ ideas }) {
   return (
     <div className="bg-slate-200">
       <Head>
-        <title>Pose ton idée !</title>
-        <meta name="description" content="Toi aussi viens poser ton idée" />
+        <title>Pose ton concept !</title>
+        <meta name="description" content="Toi aussi viens poser ton concept" />
         <link rel="icon" href="/favicon.ico" />
         <script async data-api="/sb-api" src="/sb.js"></script>
       </Head>

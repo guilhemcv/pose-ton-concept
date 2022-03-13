@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <div className="bg-slate-200">
       <Head>
-        <title>Pose ton idée !</title>
-        <meta name="description" content="Toi aussi viens poser ton idée" />
+        <title>Pose ton concept !</title>
+        <meta name="description" content="Toi aussi viens poser ton concept" />
         <link rel="icon" href="/favicon.ico" />
         <script async data-api="/sb-api" src="/sb.js"></script>
       </Head>
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-around m-5 items-center content-center bg-slate-50 rounded-md p-3 h-64 shadow-md">
             <p className="m-auto w-60 pl-5 pt-4 pr-5 text-center">
-              Sur Pose Ton Idée, tu retrouveras des idées classées par thème et
+              Sur Pose Ton Concept, tu retrouveras des idées classées par thème et
               postées par nos utilisateurs.
             </p>
             <Image src={Cerveau2} alt="cerveau" width={40} height={40} />

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../src/assets/images/logo-light.png';
+import Logo from '../src/assets/images/logo.png';
 
 function Nav() {
   return (
@@ -26,7 +26,7 @@ function Nav() {
                 className="align-middle bg-button hover:bg-black hover:text-button shadow-lg p-3 rounded w-40"
                 target="_blank"
               >
-                Proposer une idée
+                Proposer un concept
               </a>
             </Link>
           </h3>
