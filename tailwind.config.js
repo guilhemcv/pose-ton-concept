@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         'button': "#FFCF14",
       },
+      height: {
+        'vh' : '80vh'
+      }
     },
   },
   plugins: [],
