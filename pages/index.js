@@ -16,7 +16,7 @@ export default function Home() {
         <title>Pose ton concept !</title>
         <meta name="description" content="Toi aussi viens poser ton concept" />
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://cdn.splitbee.io/sb.js"></script>
+        <script async data-api="/sb-api" src="/sb.js"></script>
       </Head>
       <Nav />
       <main className="lg:h-screen bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
