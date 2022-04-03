@@ -27,7 +27,7 @@ export default function technologie({ ideas }) {
         isLiked: parseInt(likes),
       },
       validateStatus: (status) => {
-        return true; // I'm always returning true, you may want to do it depending on the status received
+        return true; 
       },
     })
       .catch((error) => {
@@ -49,7 +49,7 @@ export default function technologie({ ideas }) {
       <main className="h-full">
         <div className='flex justify-center'>
           <select
-            className="w-72 h-10 mt-10 rounded-lg p-2"
+            className="h-10 p-2 mt-10 rounded-lg w-72"
             onChange={(e) => setValue(e.target.value)}
           >
             <option value="">Choisir une catégorie :</option>
@@ -67,12 +67,12 @@ export default function technologie({ ideas }) {
             return (
               <div
                 key={idea.id}
-                className=" flex-wrap mx-8 my-8 text-left basis-2 card rounded-lg w-11/12 xl:w-8/12 ml-auto mr-auto shadow-xl font-mono hover:bg-slate-50"
+                className="flex-wrap w-11/12 mx-8 my-8 ml-auto mr-auto font-mono text-left rounded-lg shadow-xl basis-2 card xl:w-8/12 hover:bg-slate-50"
               >
                 <h5 className="text-sm lg:text-base" key={idea.id}>
                   {idea.properties.Name.title[0].text.content}
                 </h5>
-                <div className="flex justify-between mt-3 items-center">
+                <div className="flex items-center justify-between mt-3">
                   <button
                     onClick={() => {
                       setLikes(
@@ -87,7 +87,7 @@ export default function technologie({ ideas }) {
                     }}
                     className="flex items-center w-48 hover:animate-bounce"
                   >
-                    <h6 className="mr-1 text-xs text-slate-500 font-sans">
+                    <h6 className="mr-1 font-sans text-xs text-slate-500">
                       {selectElement === idea.id
                         ? 'Merci'
                         : idea.properties.likes.number}
@@ -107,7 +107,7 @@ export default function technologie({ ideas }) {
                     return (
                       <h6
                         key={cat.name}
-                        className="mr-3 text-xs bg-cyan-500 p-1 rounded-sm text-white font-sans"
+                        className="p-1 mr-3 font-sans text-xs text-white rounded-sm bg-cyan-500"
                       >
                         {cat.name}
                       </h6>
@@ -123,12 +123,12 @@ export default function technologie({ ideas }) {
             return (
               <div
                 key={idea.id}
-                className=" flex-wrap mx-8 my-8 text-left basis-2 card rounded-lg w-11/12 xl:w-8/12 ml-auto mr-auto shadow-xl font-mono hover:bg-slate-50"
+                className="flex-wrap w-11/12 mx-8 my-8 ml-auto mr-auto font-mono text-left rounded-lg shadow-xl basis-2 card xl:w-8/12 hover:bg-slate-50"
               >
                 <h5 className="text-sm lg:text-base" key={idea.id}>
                   {idea.properties.Name.title[0].text.content}
                 </h5>
-                <div className="flex justify-between mt-3 items-center">
+                <div className="flex items-center justify-between mt-3">
                   <button
                     onClick={() => {
                       setLikes(
@@ -143,7 +143,7 @@ export default function technologie({ ideas }) {
                     }}
                     className="flex items-center w-48 hover:animate-bounce"
                   >
-                    <h6 className="mr-1 text-xs text-slate-500 font-sans">
+                    <h6 className="mr-1 font-sans text-xs text-slate-500">
                       {selectElement === idea.id
                         ? 'Merci'
                         : idea.properties.likes.number}
@@ -163,7 +163,7 @@ export default function technologie({ ideas }) {
                     return (
                       <h6
                         key={cat.name}
-                        className="mr-3 text-xs bg-cyan-500 p-1 rounded-sm text-white font-sans"
+                        className="p-1 mr-3 font-sans text-xs text-white rounded-sm bg-cyan-500"
                       >
                         {cat.name}
                       </h6>
