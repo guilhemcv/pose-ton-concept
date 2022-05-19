@@ -1,11 +1,14 @@
 
-# Pose Ton Concept !
+# Pose Ton Concept ! (or drop your concept, depending your country...)
 
 Le Concept ?
 Proposer aux utilisateurs en panne d'inspiration des idées / concepts sur des thèmes variés.
 Les utilisateurs très inspirés pourront aussi partager leurs idées en ligne.
 
+The Concept ? 
 
+To provide users who are short of inspiration with ideas/concepts on various themes.
+Already Inspired users will also be able to share their own ideas online.
 
 
 ## Auteur
