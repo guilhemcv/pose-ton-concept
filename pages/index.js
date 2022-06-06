@@ -20,7 +20,7 @@ export default function Home() {
       <Nav />
       <main className="lg:h-screen bg-[url('../src/assets/images/blob-mobile.png')] lg:bg-[url('../src/assets/images/blob.png')] bg-center bg-no-repeat bg-cover">
         <h1 className="pt-10 pb-10 italic font-bold text-center text-l md:text-right md:p-20 sm:p-20 sm:text-2xl">
-        &quot;On à toujours une idée en tête... (ou pas...)&quot;
+        &quot;On a toujours une idée en tête... (ou pas...)&quot;
         </h1>
         <div className="flex flex-col justify-around h-auto m-auto  lg:flex-row sm:w-6/12 lg:w-9/12 lg:pl-30 lg:pb-10 lg:pt-24">
           <div className="flex flex-col items-center content-center justify-around h-64 p-3 m-5 rounded-md shadow-md bg-slate-50">
